@@ -1,0 +1,220 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+    width: 100%;
+    background: #FFAAA6 url(./assets/SherbertBG.jpg) no-repeat;
+    background-size: 100%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid #A8E6CE;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: -10px;
+    font-family: 'Twinkle Star', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.9vw;
+    color: #A8E6CE;
+    -webkit-text-stroke: .02px #A8E6CE;
+}
+
+header h1 {
+    margin-bottom: -35px;
+    text-align: left;
+    min-s
+}
+
+header h2 {
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3.8vh;
+}
+
+p {
+    font-size: 1em;
+    font-weight: bold;
+    font-size: 2.5vmin;
+}
+
+ol {
+    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
+}
+
+a {
+    color: #FF8C94;
+    background-color: #A8E6CE;
+    border: solid 3px #FFD3B5;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #FFD3B5;
+}
+
+nav {
+    padding: 0em 1em 0.5em 0;
+    margin: -1em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: .03em;
+}
+
+ul {
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #FF8C94;
+    color: #FFD3B5;
+    border: solid 3px #FFD3B5;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #A8E6CE;
+    color:#FF8C94;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #A8E6CE;
+    height: fit-content;
+    text-align: center;
+    justify-self: flex-end;
+    flex-shrink: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
+
+.main-nav {
+    background: #FF8C94 url(./assets/headerBG.jpg) no-repeat;
+    background-size: 100%;
+    border: 4px #FFD3B5;
+    justify-content: start;
+    position: absolute;
+    width: 100%;
+}
+
+
+.card {
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 6px solid #FFD3B5;
+    max-height: 15rem;
+    max-width: 15rem;
+    background-color: #FF8C94;
+    text-align: center;
+    
+}
+
+.header-box {
+    background-color: #A8E6CE;
+    border: 6px solid #FFD3B5;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+.scroller {
+    border: 2px solid #FFD3B5;
+    background-color: #FF8C94;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 110px;
+    text-align: left;
+    margin: 0 5px 15px 5px;
+}
+
+.scroller a {
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 10px 0 100px 0;
+}
+
+section.about-us {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    max-height: 40%;
+    max-width: 50%;
+    margin-bottom: 70px;
+    padding: 5px 15px 20px 15px;
+    background-color: #FF8C94;
+    border: 6px solid #FFD3B5;
+}
+
+section#interactive-map {
+    display: flex;
+    flex-direction: column;
+    margin: 115px 0 30px 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+section#sidebar {
+    max-width: 300px;
+    max-height: 240px;
+    margin-bottom: 20px;
+    background-color: #A8E6CE;
+    border: 6px solid #FFD3B5;
+    text-align: center;
+    z-index: 1;
+    top:178px;
+    left:0;
+}
+
+
+section.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
